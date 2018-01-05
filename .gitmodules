@@ -1,0 +1,3 @@
+[submodule "hello-plugin"]
+	path = hello-plugin
+	url = https://github.com/laolang2016/hello-plugin.git
