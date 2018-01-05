@@ -1,2 +1,2 @@
 console.log('km-blog core');
-console.log('mvc');
+console.log('user mvc');
