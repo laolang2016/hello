@@ -5,8 +5,14 @@
 console.log('hello');
 var KM={
 	_url = 'www.baidu.com';
+	function sayHello( name ){
+		console.log('hello' + name);
+	}
 	return {
-		url : _url;
+		url : _url,
+		sayHello : function(name){
+			sayHello(name);
+		}
 	};
 };
 console.log('world');
